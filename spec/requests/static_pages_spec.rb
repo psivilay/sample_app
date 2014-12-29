@@ -52,6 +52,7 @@ describe "Static pages" do
     it "should not have a custom page title" do
       visit '/static_pages/about'
       expect(page).not_to have_title('| About Us')
+    end
   end
 
   describe "Contact page" do
